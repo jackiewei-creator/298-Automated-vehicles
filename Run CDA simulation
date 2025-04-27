@@ -1,0 +1,13 @@
+(base) user10@seasadmin-Precision-5820-Tower:~/Group10/CARLA$ cd /home/user10/Group10/CARLA/PythonAPI/util
+(base) user10@seasadmin-Precision-5820-Tower:~/Group10/CARLA/PythonAPI/util$ conda activate opencda
+(opencda) user10@seasadmin-Precision-5820-Tower:~/Group10/CARLA/PythonAPI/util$ python ./config.py --map Town06
+load map 'Town06'.
+(opencda) user10@seasadmin-Precision-5820-Tower:~/Group10/CARLA/PythonAPI/util$ cd /home/user10/Group10/CEE298-2025Spring/lab02_opencda
+(opencda) user10@seasadmin-Precision-5820-Tower:~/Group10/CEE298-2025Spring/lab02_opencda$ python get_spectator_pos.py
+transform: Transform(Location(x=16.987932, y=-20.195921, z=5.640007), Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000))
+map_name: Carla/Maps/Town06
+(opencda) user10@seasadmin-Precision-5820-Tower:~/Group10/CEE298-2025Spring/lab02_opencda$ python get_spectator_pos.py
+transform: Transform(Location(x=476.062561, y=142.605728, z=5.640007), Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000))
+map_name: Carla/Maps/Town06
+(opencda) user10@seasadmin-Precision-5820-Tower:~/Group10/CEE298-2025Spring/lab02_opencda$ cd /home/user10/Group10/OpenCDA
+(opencda) user10@seasadmin-Precision-5820-Tower:~/Group10/OpenCDA$ python opencda.py -t single_intersection_town06_carla -v 0.9.12
